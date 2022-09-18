@@ -1,0 +1,16 @@
+INTALAÇÃO DO ADAPTADOR DE WIFI ( ID: OBDA: F179 REALTEK SENTCONDUCTOR CORP.802.11n NIC
+
+COMANDOS ABAIXO:
+
+1- sudo apt-get install git
+2- sudo apt-get install dkms
+3- sudo apt-get install module-assistant
+4- mkdir /home/nomedo usuario/DriverBuild
+5- cd /home/nomedousuario/DriverBuild
+6- sudo m-a update
+7- sudo m-a prepare
+8- git clone https://github.com/kelebek333/rtl8188fu
+9- sudo dkms add ./rtl8188fu
+10- sudo dkms build rtl8188fu/1.0
+11- sudo dkms install rtl8188fu/1.0
+12- sudo cp ./rtl8188fu/firmware/rtl8188fufw.bin/lib/firmware/rltwifi/ ( OBS: )

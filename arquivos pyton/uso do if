@@ -1,0 +1,8 @@
+p = 4,60
+
+c = input(c) print('Informe o valor da corrida..')
+
+if c < p*2:
+    print('va de taxe')
+if c > p*2:
+    print('va de onibus')    

@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int cont =0, ini, final;
+
+int main() {
+printf("Informe o valor inicial...\t");
+scanf("%d",&ini);
+printf("Informe o valor final...\t");
+scanf("%d",&final);
+while(ini<=final);
+{
+ printf("%d",cont); cont++;
+}
+
+
+}
