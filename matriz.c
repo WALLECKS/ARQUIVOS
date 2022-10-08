@@ -6,8 +6,8 @@ main(){
 for(x=0; x<4; x++)
     for(y=0; y<4; y++)
 {
-    printf("[%d][%d]",x,y);
+    printf("\t\n[%d][%d]",x,y);
 }
 printf("\n");
-printf("deu certo");
-}
+printf("OK DEU CERTO");
+}  
