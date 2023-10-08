@@ -7,6 +7,7 @@ typedef struct teste
 
         struct teste *prox;
         
+        
 }TESTE;
 // procedimento de inserçao de valores abaixo
 void inserir_fila(TESTE **fila, int num){
